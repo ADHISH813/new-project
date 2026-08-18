@@ -1,0 +1,69 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #212529 !important;
+    padding: 15px 30px;
+}
+
+/* Logo */
+.navbar-brand {
+    color: white !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Navigation links */
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 17px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.nav-link:hover {
+    color: #0d6efd !important;
+}
+
+/* Active link */
+.nav-link.active {
+    color: #0d6efd !important;
+    font-weight: bold;
+}
+
+/* Mobile menu button */
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Mobile responsive */
+@media (max-width: 991px) {
+    .navbar-nav {
+        margin-left: 0;
+        padding-top: 10px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+}
